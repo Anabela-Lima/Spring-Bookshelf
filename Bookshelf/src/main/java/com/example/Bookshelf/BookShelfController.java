@@ -44,7 +44,7 @@ public class BookShelfController {
 
     // create end point - from Dev perspective = methods
 
-    @GetMapping("/book") // when client makes a https request with endpoint /book
+    @GetMapping("/book") // when client makes a http request with endpoint /book
     Book getBook(){     // our server returns  an object of type Book in JSON format
         return (new Book("Of Mice and Men", "John Steinbeck", 107));
     }
